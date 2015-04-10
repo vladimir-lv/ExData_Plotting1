@@ -31,7 +31,7 @@ plot(epcdata0207$Sub_metering_1~epcdata0207$DateTime,type='l',
 lines(epcdata0207$Sub_metering_2~epcdata0207$DateTime,col="red")
 lines(epcdata0207$Sub_metering_3~epcdata0207$DateTime,col="blue")
 legend("topright", c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),
-       lty=c(1,1,1),col=c("black","red","blue"),cex=0.5,y.intersp=1)
+       lty=c(1,1,1),col=c("black","red","blue"),cex=0.5,y.intersp=1,bty="n")
 
 #Global_reactive_power
 plot(epcdata0207$Global_reactive_power~epcdata0207$DateTime,type='l',
